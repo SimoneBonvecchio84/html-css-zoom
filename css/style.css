@@ -14,6 +14,29 @@ img {
     max-width: 100%;
 }
 
+.fa-solid {
+    color: white;
+    font-size: 1.2rem;
+    
+}
+
+.display-inLine-block {
+    display:inline-block ;
+}
+
+a {
+    color: indianred;
+}
+
+ul {
+    list-style-type: none;
+}
+
+i {
+    cursor: pointer;
+}
+
+
 /*utility*/
 
 .flex {
@@ -42,12 +65,10 @@ img {
 
 .room {
     margin-top: 50px;
-    width: 90%;
+    width: 93%;
     /*debug*/
-    height:calc(100% - 100px);
-    overflow: auto;
-   
-    
+    height:calc(100% - 70px);
+    overflow: auto;   
 }
 
 /*control-bar*/
@@ -55,20 +76,20 @@ img {
 .control-bar {
     width: 100%;
     /* debug */
-    height: 100px;
-    background-color:hsl(0deg 0% 13.33%);
-    
+    height: 70px;
+    background-color:hsl(0deg 0% 13.33%);   
 }
 
 .user-cam {
     padding: 5px;
     width: calc(100% / 7);
     border: 1px solid black;
-    height: 100px; 
-    position: relative;   
+    height: 110px; 
+    position: relative;
+     
 }
 .img-user {
-     width: 100%;
+    width: 100%;
     height: 100%;
 }
 
@@ -78,18 +99,21 @@ img {
     position: absolute;
     bottom: 5px;
     left: 5px;
-    
-    
+    display: inline-block;    
 }
 
-.fa-solid,
+.fa-maximize,
+.fa-table-cells,
+.fa-microphone-slash,
 .name {
+    text-align: center;
     display: inline-block;
     font-size: 0.6rem;      
 }
 
 .name {
     padding: 2px;
+    
 }
 
 /*Speaker*/
@@ -112,24 +136,68 @@ img {
     background-color:hsl(0deg 0% 29.02%) ;
     border-radius: 2px;
     top: 2px;
-    right: 2px;
+    right: 5px;
     text-align: center;
     display: inline-block;
     
 }
 
 .text-speaker,
-.fa-square {
+.fa-table-cells {
     font-size: 0.7rem;
-    cursor: pointer;
-    color: white;
-    padding: 2px;
+    padding: 2px; 
     
+}
+
+.text-speaker {
+    color: white;
 }
 
 .fa-maximize {
-    color: white;
-    padding: 2px;
+    padding: 2px; 
+    cursor: pointer; 
+}
+
+.bar-left,
+.bar-right {
+    width: 20%;
+    /*debug*/
     
 }
 
+.bar-center {
+    width: 70%;
+    
+    
+}
+
+
+.ul-bar-left {
+    justify-content: center;
+    gap: 25px;
+}
+.bar-right {
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    line-height: 70px;   
+}
+
+.i-text {
+    color: white;
+}
+
+.fa-angle-up {
+    font-size: 0.7rem;
+}
+
+.fa-share-from-square {
+    color: green;
+}
+
+.end {
+   color: red; 
+   font-size: 0.8rem;
+}

@@ -65,7 +65,7 @@ i {
 
 .room {
     margin-top: 50px;
-    width: 93%;
+    width: 80%;
     /*debug*/
     height:calc(100% - 70px);
     overflow: auto;   
@@ -179,6 +179,7 @@ i {
 .bar-right {
     justify-content: center;
     align-items: center;
+    background-color: rgba(0,0,0,0.2);
 }
 
 li {
@@ -200,4 +201,5 @@ li {
 .end {
    color: red; 
    font-size: 0.8rem;
+   cursor: pointer;
 }
